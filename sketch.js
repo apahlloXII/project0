@@ -47,5 +47,8 @@ let y = color(127, 127, 127);
 
 pstn = pstn - 5;
 
+if (pstn < 0) {
+  pstn = 500;
+  }
 }
 
